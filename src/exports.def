@@ -1,0 +1,4 @@
+LIBRARY	"storage_util"
+EXPORTS
+SKSEPlugin_Query
+SKSEPlugin_Load

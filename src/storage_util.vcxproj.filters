@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\skse64\GameAPI.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\GameBSExtraData.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\GameData.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\GameEvents.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\GameExtraData.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\GameFormComponents.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\GameForms.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\GameMenus.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\GameObjects.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\GameReferences.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\GameResources.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\GameRTTI.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\GameSettings.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\GameStreams.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\GameThreads.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\GameTypes.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\GameUtilities.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\HashUtil.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\NiAllocator.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\NiExtraData.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\NiGeometry.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\NiMaterial.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\NiNodes.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\NiObjects.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\NiProperties.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\NiRenderer.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\NiRTTI.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\NiSerialization.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\NiTextures.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\NiTypes.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\PapyrusArgs.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\PapyrusInterfaces.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\PapyrusNativeFunctions.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\PapyrusValue.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\PapyrusVM.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\ScaleformAPI.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\ScaleformCallbacks.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\ScaleformMovie.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\ScaleformState.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\ScaleformTypes.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\ScaleformValue.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\ScaleformVM.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="events.cpp" />
+    <ClCompile Include="..\skse64\GameInput.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\GlobalLocks.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\Hooks_Gameplay.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\Hooks_Scaleform.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\InputMap.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\PapyrusEvents.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\ScaleformExtendedData.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\ScaleformLoader.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skse64\Translation.cpp">
+      <Filter>SKSE</Filter>
+    </ClCompile>
+    <ClCompile Include="PapyrusStorageUtil.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\skse64\GameAPI.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\GameBSExtraData.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\GameData.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\GameEvents.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\GameExtraData.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\GameFormComponents.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\GameForms.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\GameMenus.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\GameObjects.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\GameReferences.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\GameResources.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\GameRTTI.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\GameSettings.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\GameStreams.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\gamethreads.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\GameTypes.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\GameUtilities.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\HashUtil.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\NiAllocator.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\NiExtraData.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\NiGeometry.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\NiMaterial.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\NiNodes.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\NiObjects.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\NiProperties.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\NiRenderer.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\NiRTTI.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\NiSerialization.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\NiTextures.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\NiTypes.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\PapyrusArgs.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\PapyrusInterfaces.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\PapyrusNativeFunctions.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\PapyrusValue.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\PapyrusVM.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\ScaleformAPI.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\ScaleformCallbacks.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\ScaleformMovie.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\ScaleformState.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\ScaleformTypes.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\ScaleformValue.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\ScaleformVM.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="events.h" />
+    <ClInclude Include="..\skse64\GameInput.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\GlobalLocks.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\Hooks_Gameplay.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\Hooks_Scaleform.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\InputMap.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\PapyrusEvents.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\ScaleformExtendedData.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\ScaleformLoader.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skse64\Translation.h">
+      <Filter>SKSE</Filter>
+    </ClInclude>
+    <ClInclude Include="PapyrusStorageUtil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="exports.def" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SKSE">
+      <UniqueIdentifier>{76f12d05-cdf0-4bb6-b3d4-2faeab6cec59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
